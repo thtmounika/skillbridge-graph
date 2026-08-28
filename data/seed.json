@@ -1,0 +1,415 @@
+{
+  "people": [
+    {
+      "id": "P-001",
+      "name": "Maya",
+      "headline": "Frontend engineer moving toward product engineering"
+    },
+    {
+      "id": "P-002",
+      "name": "Arjun",
+      "headline": "Data analyst exploring machine learning"
+    }
+  ],
+
+  "roles": [
+    {
+      "id": "R-001",
+      "title": "Product Engineer",
+      "level": "Mid-level",
+      "description": "Build product features across frontend, backend and data layers."
+    },
+    {
+      "id": "R-002",
+      "title": "Frontend Engineer",
+      "level": "Mid-level",
+      "description": "Create accessible, performant interfaces for web products."
+    },
+    {
+      "id": "R-003",
+      "title": "Data Engineer",
+      "level": "Mid-level",
+      "description": "Build reliable pipelines and data systems for analytics and products."
+    },
+    {
+      "id": "R-004",
+      "title": "ML Engineer",
+      "level": "Mid-level",
+      "description": "Productionize machine-learning systems and model workflows."
+    },
+    {
+      "id": "R-005",
+      "title": "Analytics Engineer",
+      "level": "Mid-level",
+      "description": "Transform raw data into trusted models and decision-ready metrics."
+    },
+    {
+      "id": "R-006",
+      "title": "Backend Engineer",
+      "level": "Mid-level",
+      "description": "Design APIs, services and data-backed product systems."
+    }
+  ],
+
+  "skills": [
+    {
+      "id": "S-001",
+      "name": "JavaScript",
+      "category": "Programming"
+    },
+    {
+      "id": "S-002",
+      "name": "TypeScript",
+      "category": "Programming"
+    },
+    {
+      "id": "S-003",
+      "name": "React",
+      "category": "Frontend"
+    },
+    {
+      "id": "S-004",
+      "name": "Python",
+      "category": "Programming"
+    },
+    {
+      "id": "S-005",
+      "name": "SQL",
+      "category": "Data"
+    },
+    {
+      "id": "S-006",
+      "name": "APIs",
+      "category": "Backend"
+    },
+    {
+      "id": "S-007",
+      "name": "Git",
+      "category": "Engineering"
+    },
+    {
+      "id": "S-008",
+      "name": "Docker",
+      "category": "DevOps"
+    },
+    {
+      "id": "S-009",
+      "name": "Data Modeling",
+      "category": "Data"
+    },
+    {
+      "id": "S-010",
+      "name": "ETL",
+      "category": "Data"
+    },
+    {
+      "id": "S-011",
+      "name": "Statistics",
+      "category": "Data"
+    },
+    {
+      "id": "S-012",
+      "name": "Machine Learning",
+      "category": "AI"
+    },
+    {
+      "id": "S-013",
+      "name": "Pandas",
+      "category": "AI"
+    },
+    {
+      "id": "S-014",
+      "name": "Testing",
+      "category": "Engineering"
+    },
+    {
+      "id": "S-015",
+      "name": "System Design",
+      "category": "Backend"
+    }
+  ],
+
+  "resources": [
+    {
+      "id": "L-001",
+      "title": "TypeScript Handbook",
+      "provider": "Microsoft",
+      "url": "https://www.typescriptlang.org/docs/"
+    },
+    {
+      "id": "L-002",
+      "title": "React Documentation",
+      "provider": "Meta",
+      "url": "https://react.dev/"
+    },
+    {
+      "id": "L-003",
+      "title": "Python Tutorial",
+      "provider": "Python",
+      "url": "https://docs.python.org/3/tutorial/"
+    },
+    {
+      "id": "L-004",
+      "title": "SQL Tutorial",
+      "provider": "W3Schools",
+      "url": "https://www.w3schools.com/sql/"
+    },
+    {
+      "id": "L-005",
+      "title": "Docker Get Started",
+      "provider": "Docker",
+      "url": "https://docs.docker.com/get-started/"
+    },
+    {
+      "id": "L-006",
+      "title": "Pandas Getting Started",
+      "provider": "Pandas",
+      "url": "https://pandas.pydata.org/docs/getting_started/"
+    },
+    {
+      "id": "L-007",
+      "title": "Machine Learning Guide",
+      "provider": "Google",
+      "url": "https://developers.google.com/machine-learning"
+    },
+    {
+      "id": "L-008",
+      "title": "API Design Guide",
+      "provider": "Microsoft",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design"
+    },
+    {
+      "id": "L-009",
+      "title": "Testing with Python",
+      "provider": "Python",
+      "url": "https://docs.python.org/3/library/unittest.html"
+    }
+  ],
+
+  "person_skills": [
+    {
+      "person_id": "P-001",
+      "skill_id": "S-001"
+    },
+    {
+      "person_id": "P-001",
+      "skill_id": "S-003"
+    },
+    {
+      "person_id": "P-001",
+      "skill_id": "S-007"
+    },
+    {
+      "person_id": "P-001",
+      "skill_id": "S-014"
+    },
+    {
+      "person_id": "P-002",
+      "skill_id": "S-004"
+    },
+    {
+      "person_id": "P-002",
+      "skill_id": "S-005"
+    },
+    {
+      "person_id": "P-002",
+      "skill_id": "S-011"
+    },
+    {
+      "person_id": "P-002",
+      "skill_id": "S-013"
+    }
+  ],
+
+  "role_skills": [
+    {
+      "role_id": "R-001",
+      "skill_id": "S-001"
+    },
+    {
+      "role_id": "R-001",
+      "skill_id": "S-002"
+    },
+    {
+      "role_id": "R-001",
+      "skill_id": "S-006"
+    },
+    {
+      "role_id": "R-001",
+      "skill_id": "S-009"
+    },
+    {
+      "role_id": "R-001",
+      "skill_id": "S-014"
+    },
+    {
+      "role_id": "R-002",
+      "skill_id": "S-001"
+    },
+    {
+      "role_id": "R-002",
+      "skill_id": "S-002"
+    },
+    {
+      "role_id": "R-002",
+      "skill_id": "S-003"
+    },
+    {
+      "role_id": "R-002",
+      "skill_id": "S-014"
+    },
+    {
+      "role_id": "R-003",
+      "skill_id": "S-004"
+    },
+    {
+      "role_id": "R-003",
+      "skill_id": "S-005"
+    },
+    {
+      "role_id": "R-003",
+      "skill_id": "S-008"
+    },
+    {
+      "role_id": "R-003",
+      "skill_id": "S-010"
+    },
+    {
+      "role_id": "R-003",
+      "skill_id": "S-009"
+    },
+    {
+      "role_id": "R-004",
+      "skill_id": "S-004"
+    },
+    {
+      "role_id": "R-004",
+      "skill_id": "S-008"
+    },
+    {
+      "role_id": "R-004",
+      "skill_id": "S-011"
+    },
+    {
+      "role_id": "R-004",
+      "skill_id": "S-012"
+    },
+    {
+      "role_id": "R-004",
+      "skill_id": "S-013"
+    },
+    {
+      "role_id": "R-005",
+      "skill_id": "S-005"
+    },
+    {
+      "role_id": "R-005",
+      "skill_id": "S-009"
+    },
+    {
+      "role_id": "R-005",
+      "skill_id": "S-010"
+    },
+    {
+      "role_id": "R-005",
+      "skill_id": "S-011"
+    },
+    {
+      "role_id": "R-006",
+      "skill_id": "S-004"
+    },
+    {
+      "role_id": "R-006",
+      "skill_id": "S-006"
+    },
+    {
+      "role_id": "R-006",
+      "skill_id": "S-008"
+    },
+    {
+      "role_id": "R-006",
+      "skill_id": "S-015"
+    },
+    {
+      "role_id": "R-006",
+      "skill_id": "S-014"
+    }
+  ],
+
+  "resource_skills": [
+    {
+      "resource_id": "L-001",
+      "skill_id": "S-002"
+    },
+    {
+      "resource_id": "L-002",
+      "skill_id": "S-003"
+    },
+    {
+      "resource_id": "L-003",
+      "skill_id": "S-004"
+    },
+    {
+      "resource_id": "L-004",
+      "skill_id": "S-005"
+    },
+    {
+      "resource_id": "L-005",
+      "skill_id": "S-008"
+    },
+    {
+      "resource_id": "L-006",
+      "skill_id": "S-013"
+    },
+    {
+      "resource_id": "L-007",
+      "skill_id": "S-012"
+    },
+    {
+      "resource_id": "L-008",
+      "skill_id": "S-006"
+    },
+    {
+      "resource_id": "L-009",
+      "skill_id": "S-014"
+    }
+  ],
+
+  "targets": [
+    {
+      "person_id": "P-001",
+      "role_id": "R-001"
+    },
+    {
+      "person_id": "P-002",
+      "role_id": "R-004"
+    }
+  ],
+
+  "related_roles": [
+    {
+      "from_id": "R-002",
+      "to_id": "R-001"
+    },
+    {
+      "from_id": "R-001",
+      "to_id": "R-006"
+    },
+    {
+      "from_id": "R-003",
+      "to_id": "R-005"
+    },
+    {
+      "from_id": "R-005",
+      "to_id": "R-004"
+    },
+    {
+      "from_id": "R-006",
+      "to_id": "R-003"
+    },
+    {
+      "from_id": "R-002",
+      "to_id": "R-006"
+    }
+  ]
+}

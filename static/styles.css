@@ -1,0 +1,38 @@
+:root{
+  --bg:#f5f7fb;--card:#fff;--ink:#172033;--muted:#697386;--line:#e5e9f0;
+  --accent:#5b5bd6;--accent-soft:#eeedff;--good:#0d8a63;--warn:#b26a00;
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink)}
+.topbar{padding:44px max(24px,calc((100% - 1180px)/2));display:flex;justify-content:space-between;gap:28px;align-items:flex-start}
+.eyebrow,.kicker{font-size:11px;letter-spacing:.13em;font-weight:800;color:var(--accent)}
+h1{font-size:42px;line-height:1.05;margin:10px 0 12px;letter-spacing:-.035em}
+h2{font-size:28px;margin:10px 0 8px;letter-spacing:-.025em}h3{font-size:19px;margin:8px 0}
+.subtitle,p{color:var(--muted);line-height:1.55}.subtitle{max-width:650px;margin:0}
+.status{background:#fff;border:1px solid var(--line);border-radius:999px;padding:10px 14px;font-size:13px;color:var(--muted)}
+.shell{max-width:1180px;margin:0 auto;padding:0 24px 48px}
+.hero-card,.panel{background:var(--card);border:1px solid var(--line);border-radius:20px;box-shadow:0 8px 30px rgba(23,32,51,.04)}
+.hero-card{padding:28px;display:flex;justify-content:space-between;align-items:center;gap:24px}
+.pill{display:inline-block;background:var(--accent-soft);color:var(--accent);font-weight:800;font-size:11px;padding:7px 10px;border-radius:999px}
+.select-wrap{display:flex;flex-direction:column;gap:6px;font-size:12px;font-weight:700;color:var(--muted)}
+select{border:1px solid var(--line);background:#fff;border-radius:10px;padding:10px 12px;color:var(--ink);font:inherit}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:16px 0}
+.stat{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px}.stat b{font-size:27px;display:block}.stat span{color:var(--muted);font-size:12px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px}.panel{padding:24px}
+.panel-head{display:flex;justify-content:space-between;gap:20px;align-items:flex-start;border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:16px}
+.panel-head p{font-size:13px;margin:5px 0 0}.compact-select{max-width:210px}
+.role-list{display:grid;gap:10px}.role{border:1px solid var(--line);border-radius:14px;padding:15px;cursor:pointer;transition:.18s;background:#fff}
+.role:hover,.role.active{border-color:#c9c7ff;box-shadow:0 6px 18px rgba(91,91,214,.09)}
+.role-top{display:flex;justify-content:space-between;gap:10px}.role-title{font-weight:800}.role-meta{font-size:12px;color:var(--muted);margin-top:4px}
+.score{background:#e9f8f2;color:var(--good);font-weight:800;padding:5px 8px;border-radius:999px;font-size:12px;white-space:nowrap}
+.gap-list,.learning-list{display:grid;gap:10px}.gap,.resource{border:1px solid var(--line);border-radius:13px;padding:13px;display:flex;justify-content:space-between;gap:14px;align-items:center}
+.gap-name{font-weight:750}.category{font-size:11px;color:var(--muted);margin-top:3px}
+.resource a{color:var(--accent);font-weight:700;text-decoration:none;font-size:13px}
+.empty{color:var(--muted);padding:25px 5px}.loading{color:var(--muted)}
+.graph{min-height:300px;position:relative;overflow:hidden;background:#fafbff;border-radius:14px;border:1px dashed var(--line)}
+.node{position:absolute;transform:translate(-50%,-50%);padding:9px 12px;border-radius:999px;font-size:12px;font-weight:750;border:1px solid #dfe3ec;background:#fff;box-shadow:0 4px 14px rgba(23,32,51,.07)}
+.node.person{background:#172033;color:#fff;border-color:#172033}.node.role{background:var(--accent-soft);color:var(--accent);border-color:#d8d6ff}
+.node.skill{background:#eaf8f3;color:var(--good);border-color:#cfeee2}
+.edge{position:absolute;height:1px;background:#cfd5e1;transform-origin:0 50%;opacity:.8}
+footer{text-align:center;padding:25px;color:var(--muted);font-size:12px}
+@media(max-width:800px){.topbar{padding-top:28px;flex-direction:column}h1{font-size:34px}.hero-card{flex-direction:column;align-items:stretch}.grid{grid-template-columns:1fr}.stats{grid-template-columns:1fr}}

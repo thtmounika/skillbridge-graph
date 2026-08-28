@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SkillBridge Graph</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <div class="eyebrow">SKILLBRIDGE · GRAPH EXPLORER</div>
+      <h1>Turn skills into your next role.</h1>
+      <p class="subtitle">A graph-powered career map that explains <em>why</em> a role fits and what to learn next.</p>
+    </div>
+    <div id="health" class="status">Checking database…</div>
+  </header>
+
+  <main class="shell">
+    <section class="hero-card">
+      <div>
+        <span class="pill">LIVE GRAPH</span>
+        <h2>Career path for <span id="personName">Maya</span></h2>
+        <p id="personHeadline">Loading profile…</p>
+      </div>
+      <label class="select-wrap">
+        <span>Profile</span>
+        <select id="personSelect">
+          <option value="P-001">Maya</option>
+          <option value="P-002">Arjun</option>
+        </select>
+      </label>
+    </section>
+
+    <section class="stats" id="stats"></section>
+
+    <div class="grid">
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <span class="kicker">01 · RECOMMENDATIONS</span>
+            <h3>Roles that connect to your skills</h3>
+          </div>
+        </div>
+        <div id="recommendations" class="role-list loading">Loading…</div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <span class="kicker">02 · SKILL GAP</span>
+            <h3 id="gapTitle">Select a role</h3>
+          </div>
+          <select id="roleSelect" class="compact-select"></select>
+        </div>
+        <div id="gaps" class="gap-list empty">Choose a role to see the missing skills.</div>
+      </section>
+    </div>
+
+    <section class="panel">
+      <div class="panel-head">
+        <div>
+          <span class="kicker">03 · MULTI-HOP PATH</span>
+          <h3>What should I learn next?</h3>
+          <p>Person → skill gap → learning resource, traversed from the graph.</p>
+        </div>
+      </div>
+      <div id="learning" class="learning-list empty">Select a target role above.</div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <div>
+          <span class="kicker">04 · GRAPH VIEW</span>
+          <h3>See the connected context</h3>
+          <p>Skills connect you to roles, adjacent skills and learning resources.</p>
+        </div>
+      </div>
+      <div id="graph" class="graph"></div>
+    </section>
+  </main>
+
+  <footer>Built for the WEXA AI CognoDB take-home · SkillBridge</footer>
+  <script src="/static/app.js"></script>
+</body>
+</html>
