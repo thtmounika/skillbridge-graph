@@ -233,3 +233,14 @@ This repository includes `render.yaml`.
 
 - CognoDB developer guide: https://cognodb.com/developers
 - Neo4j official drivers: https://neo4j.com/docs/bolt/current/neo4j-drivers/
+
+  ## Screenshots
+
+### Career Recommendations
+![SkillBridge Graph - Arjun](onrender%20Arjun.PNG)
+
+### Maya Profile
+![SkillBridge Graph - Maya](onrender%20Maya.PNG)
+
+### Dynamic Skill Gap
+![SkillBridge Graph - Skill Gap](onrender%20Maya%20by%20changing%20skillgap.PNG)
